@@ -1,14 +1,11 @@
-# new-programny-product-this-ts
-
-
-## description
+# Low rating films
 
 This project showing 10 films with low rated </br>
 You can choose date release films and get the lowest rated movies of the year</br>
 Also you can view more detalies about film
 
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
