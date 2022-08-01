@@ -1,4 +1,4 @@
-# test-programny-product
+# new-programny-product-this-ts
 
 ## Project setup
 ```

@@ -3,8 +3,8 @@
     <div class="container">
     <router-link class="navbar-brand" to="/">
       <img v-if="logoImg" src="../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Киновтопку"/>
-      <fa-icon icon="fa-video-camera " v-if="!logoImg"/>
-      Киновтопку
+    
+      <span>Киновтопку</span>
     </router-link> 
     </div>
   </nav>
@@ -12,7 +12,9 @@
 
 <script>
 export default {
-  props: ['logo'],
+  props: {
+    logo: String,
+  },
   computed: {
     logoImg(){
       return this.logo === 'home'
@@ -22,4 +24,7 @@ export default {
 </script>
 
 <style>
+.navbar-brand span{
+  color: #000;
+}
 </style>
