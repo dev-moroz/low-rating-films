@@ -19,7 +19,7 @@
         </div>
 <h2>kol</h2>
 <h1>0</h1>
-<h3>0l</h3>
+<h3>0l</h3> 
         <temaplate v-if="film.backdrop_path">
           <hr />
           <p>backdrops:</p>
