@@ -17,13 +17,14 @@
           <p>overview:</p>
           <p>{{ film.overview }}</p>
         </div>
-
+<h2>kol</h2>
         <temaplate v-if="film.backdrop_path">
           <hr />
           <p>backdrops:</p>
           <img
             :src="originImg + film.backdrop_path"
             :alt="film.backdrop_path"
+            d
             class="w-100"
           />
         </temaplate>
